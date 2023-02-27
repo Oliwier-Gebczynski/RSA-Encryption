@@ -22,3 +22,7 @@ cmake-build-debug/CMakeFiles/cmake.check_cache
 cmake-build-debug/CMakeFiles/CMakeOutput.log
 cmake-build-debug/CMakeFiles/TargetDirectories.txt
 cmake-build-debug/Testing/Temporary/LastTest.log
+cmake-build-debug/.ninja_deps
+cmake-build-debug/.ninja_log
+*.obj
+cmake-build-debug/RSA_Encryption.exe

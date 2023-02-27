@@ -8,4 +8,6 @@ include_directories(.)
 add_executable(RSA_Encryption
         main.cpp
         main.h
-        rsa.cpp)
+        rsa.cpp
+        main_functions.cpp
+        )

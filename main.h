@@ -1,8 +1,15 @@
-//
-// Created by oliwi on 2/25/2023.
-//
+#include <iostream>
+#include <map>
+#include <set>
+#include <fstream>
+#include <list>
+#include <string>
+#include <sstream>
+#include <algorithm>
+#include <vector>
+#include <limits>
+#include <queue>
+#include <cctype>
+#pragma once
 
-#ifndef RSA_ENCRYPTION_MAIN_H
-#define RSA_ENCRYPTION_MAIN_H
-
-#endif //RSA_ENCRYPTION_MAIN_H
+std::string readFile(const std::string& file);
