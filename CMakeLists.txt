@@ -10,4 +10,5 @@ add_executable(RSA_Encryption
         main.h
         rsa.cpp
         main_functions.cpp
+        hill_cipher.cpp
         )

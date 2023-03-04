@@ -13,3 +13,8 @@
 #pragma once
 
 std::string readFile(const std::string& file);
+
+//hill cipher
+std::vector<std::vector<int>> keyMatrix (const std::string &key);
+
+std::vector<int> messageVector (const std::string &text);
