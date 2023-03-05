@@ -12,12 +12,14 @@
 
 int main(){
     //std::string file = readFile("input.txt");
-    std::string key = "aaabbbccc";
+    std::string key = "245123314";
     std::string message = "abc";
 
 
     //std::vector<std::vector<int>> mKey = keyMatrix(key);
-    std::vector<int> mMessage = messageVector(message);
+    //std::vector<int> mMessage = messageVector(message);
+
+    auto substr = hillEncrypt(message,key);
 }
 
 

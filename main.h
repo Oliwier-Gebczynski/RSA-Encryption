@@ -15,6 +15,9 @@
 std::string readFile(const std::string& file);
 
 //hill cipher
+std::string hillEncrypt(const std::string &file, const std::string &input_key);
+
 std::vector<std::vector<int>> keyMatrix (const std::string &key);
 
 std::vector<int> messageVector (const std::string &text);
+
